@@ -1,1 +1,29 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+
+jobs:
+  build:
+    run-on: ubuntu-latest
+
+    steps:
+      - name: 'Testing Github actions'
+        run: pwd 
+
+      - name: 'Testing printing'
+        run: echo seif 
+
+
+
+
+
+
+
+
+
 
